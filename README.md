@@ -1,5 +1,5 @@
 # Summarizer
-Convert a block of text into a quick summary! (Work in Progress)
+Convert a block of text into a quick summary!
 <br>
 Does an extractive summary of text using latent semantic analysis (LSA).
 
