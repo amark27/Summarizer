@@ -10,7 +10,8 @@ def home():
 
 @app.route('/api/v1/summarize/', methods=['POST'])
 def summarize():
-    return {'summary': 'test'}
+    data = request.get_json()
+    return {'summary': data}
 
 @app.errorhandler(HTTPException)
 def resource_not_found(err):
